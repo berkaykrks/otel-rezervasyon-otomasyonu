@@ -83,7 +83,7 @@ namespace Otel_Rezervasyon_Sistemi
             // Eğer ID sıfırdan küçük veya eşitse silme işlemi yapma
             if (reservationId <= 0)
             {
-                MessageBox.Show("Lütfen geçerli bir rezervasyon ID'si girin.");
+                MessageBox.Show("Geçerli bir rezervasyon ID'si girin.");
                 return;
             }
 
